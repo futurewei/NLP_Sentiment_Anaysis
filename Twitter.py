@@ -32,3 +32,17 @@ auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
 twitterStream.filter(track=["Trump"])
+
+
+'''
+sample run on "Free speech"
+
+RT @JohnFromCranber: What Libs Are Protesting Against is The Free Speech of Folks Who Have  
+Views That Differ From Theirs.... They're NOT L… pos 0.6
+RT @KanchanGupta: Blame it on official denial of free speech. Plus the urge to be politically 
+correct. We were PC long before world d…  neg 1.0
+RT @RepJoeKennedy: In this country we defend both the right to free speech and those who exercise it. 
+https://t.co/kCiv3TXoLa pos 0.6
+Our Views: Protecting free speech doesn't require new laws https://t.co/hWJmHIRWii neg 0.8
+
+'''
